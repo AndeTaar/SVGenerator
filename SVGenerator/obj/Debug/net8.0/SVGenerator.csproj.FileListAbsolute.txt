@@ -1,0 +1,14 @@
+/Users/thomas/Desktop/SVGenerator/SVGenerator/bin/Debug/net8.0/SVGenerator
+/Users/thomas/Desktop/SVGenerator/SVGenerator/bin/Debug/net8.0/SVGenerator.deps.json
+/Users/thomas/Desktop/SVGenerator/SVGenerator/bin/Debug/net8.0/SVGenerator.runtimeconfig.json
+/Users/thomas/Desktop/SVGenerator/SVGenerator/bin/Debug/net8.0/SVGenerator.dll
+/Users/thomas/Desktop/SVGenerator/SVGenerator/bin/Debug/net8.0/SVGenerator.pdb
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.AssemblyInfoInputs.cache
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.AssemblyInfo.cs
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.csproj.CoreCompileInputs.cache
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.dll
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/refint/SVGenerator.dll
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.pdb
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.genruntimeconfig.cache
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/ref/SVGenerator.dll

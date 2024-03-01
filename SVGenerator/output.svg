@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="10" y="10" width="180" height="180" stroke="Black" stroke-width="3" fill="White" />
+    <circle cx="70" cy="70" r="37" stroke="Black" stroke-width="1" fill="Black" />
+    <circle cx="130" cy="70" r="37" stroke="Black" stroke-width="1" fill="Black" />
+    <circle cx="70" cy="70" r="30" stroke="Black" stroke-width="1" fill="White" />
+    <circle cx="130" cy="70" r="30" stroke="Black" stroke-width="1" fill="White" />
+    <circle cx="100" cy="100" r="50" stroke="Black" stroke-width="3" fill="White" />
+    <circle cx="85" cy="85" r="10" stroke="Black" stroke-width="3" fill="White" />
+    <circle cx="115" cy="85" r="10" stroke="Black" stroke-width="3" fill="White" />
+    <line x1="0" y1="0" x2="200" y2="200" style="stroke:Red;stroke-width:10" />
+    <line x1="200" y1="0" x2="0" y2="200" style="stroke:Red;stroke-width:10" />
+    <text x="17" y="170" font-size="14" font-family="Arial" fill="Black" stroke="" stroke-width="">It's even worse for mouses!</text>
+</svg>
