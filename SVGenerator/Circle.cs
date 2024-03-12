@@ -19,8 +19,13 @@ public class Circle : Shape
         this.StrokeWidth = strokeWidth;
     }
 
-    public string ToSvgString()
+    public string ToSvgString(Point? origin)
     {
-        return $@"<circle cx=""{this.Center.X}"" cy=""{this.Center.Y}"" r=""{this.Radius}"" stroke=""{this.StrokeColor.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor.Name}"" />";
+        if(origin == null)
+        {
+            return $@"<circle cx=""{this.Center.X}"" cy=""{this.Center.Y}"" r=""{this.Radius}"" stroke=""{this.StrokeColor.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor.Name}"" />";
+        }
+
+        return $@"<circle cx=""{origin.X + this.Center.X}"" cy=""{origin.Y + this.Center.Y}"" r=""{this.Radius}"" stroke=""{this.StrokeColor.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor.Name}"" />";
     }
 }

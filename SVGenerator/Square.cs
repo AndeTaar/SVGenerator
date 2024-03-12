@@ -19,8 +19,12 @@ public class Square : Shape
         this.StrokeWidth = strokeWidth;
     }
 
-    public string ToSvgString()
+    public string ToSvgString(Point? origin)
     {
-        return $@"<rect x=""{this.TopLeft.X}"" y=""{this.TopLeft.Y}"" width=""{this.SideLength}"" height=""{this.SideLength}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor?.Name}"" />";
+        if (origin == null)
+        {
+            return $@"<rect x=""{this.TopLeft.X}"" y=""{this.TopLeft.Y}"" width=""{this.SideLength}"" height=""{this.SideLength}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor?.Name}"" />";
+        }
+        return $@"<rect x=""{origin.X + this.TopLeft.X}"" y=""{origin.Y + this.TopLeft.Y}"" width=""{this.SideLength}"" height=""{this.SideLength}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"" fill=""{this.FillColor?.Name}"" />";
     }
 }

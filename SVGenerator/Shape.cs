@@ -2,5 +2,5 @@ namespace Svgenerator;
 
 public interface Shape
 {
-    public string ToSvgString();
+    public string ToSvgString(Point origin);
 }

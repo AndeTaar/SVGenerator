@@ -12,3 +12,4 @@
 /Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.pdb
 /Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.genruntimeconfig.cache
 /Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/ref/SVGenerator.dll
+/Users/thomas/Desktop/SVGenerator/SVGenerator/obj/Debug/net8.0/SVGenerator.sourcelink.json

@@ -32,9 +32,10 @@ public class SvgDocument
     private void GenerateContent(List<Shape> shapes)
     {
         string content = $@"<svg width=""{this.Width}"" height=""{this.Height}"" xmlns=""http://www.w3.org/2000/svg"">";
+
         foreach (var shape in shapes)
         {
-            content += "    " + shape.ToSvgString() + "\n";
+            content += "    " + shape.ToSvgString(new Point(0,0)) + "\n";
         }
         content += "</svg>";
         this.Content = content;

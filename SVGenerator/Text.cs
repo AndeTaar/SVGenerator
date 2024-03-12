@@ -23,8 +23,12 @@ public class Text : Shape
         this.StrokeWidth = strokeWidth;
     }
 
-    public String ToSvgString()
+    public string ToSvgString(Point? origin)
     {
-        return $@"<text x=""{this.TopLeft.X}"" y=""{this.TopLeft.Y}"" font-size=""{this.FontSize}"" font-family=""{this.FontFamily}"" fill=""{this.FillColor?.Name}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"">{this.Content}</text>";
+        if (origin == null)
+        {
+            return $@"<text x=""{this.TopLeft.X}"" y=""{this.TopLeft.Y}"" font-size=""{this.FontSize}"" font-family=""{this.FontFamily}"" fill=""{this.FillColor?.Name}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"">{this.Content}</text>";
+        }
+        return $@"<text x=""{origin.X + this.TopLeft.X}"" y=""{origin.Y + this.TopLeft.Y}"" font-size=""{this.FontSize}"" font-family=""{this.FontFamily}"" fill=""{this.FillColor?.Name}"" stroke=""{this.StrokeColor?.Name}"" stroke-width=""{this.StrokeWidth}"">{this.Content}</text>";
     }
 }

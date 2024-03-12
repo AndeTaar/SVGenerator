@@ -17,8 +17,12 @@ public class Line : Shape
         this.StrokeWidth = strokeWidth;
     }
 
-    public string ToSvgString()
+    public string ToSvgString(Point? origin)
     {
-        return $@"<line x1=""{this.Start.X}"" y1=""{this.Start.Y}"" x2=""{this.End.X}"" y2=""{this.End.Y}"" style=""stroke:{this.StrokeColor.Name};stroke-width:{this.StrokeWidth}"" />";
+        if (origin == null)
+        {
+            return $@"<line x1=""{this.Start.X}"" y1=""{this.Start.Y}"" x2=""{this.End.X}"" y2=""{this.End.Y}"" stroke=""{this.StrokeColor.Name}"" stroke-width=""{this.StrokeWidth}"" />";
+        }
+        return $@"<line x1=""{origin.X + this.Start.X}"" y1=""{origin.Y + this.Start.Y}"" x2=""{origin.X + this.End.X}"" y2=""{origin.Y + this.End.Y}"" stroke=""{this.StrokeColor.Name}"" stroke-width=""{this.StrokeWidth}"" />";
     }
 }
