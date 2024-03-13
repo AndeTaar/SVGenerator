@@ -11,7 +11,6 @@ SvgDocument svgDocument = new SvgDocument("output.svg", 200, 200);
 Square square = new Square(new Point(10, 10), 180, Color.White, Color.Black, 3);
 svgDocument.Shapes.Add(square);
 
-
 Group mouse = new Group( "mouse" , new Point(100, 100));
 
 Group mouseEars = new Group("mouseEars", new Point(0, -70));
