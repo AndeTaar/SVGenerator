@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SVGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b40c355ca608e5d431433661d9043b9c8cf48e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SVGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SVGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

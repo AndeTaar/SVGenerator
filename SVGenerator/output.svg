@@ -3,28 +3,21 @@
 <g id='mouse'>
     
 <g id='mouseEars'>
-    <circle cx="70" cy="30" r="37" stroke="Black" stroke-width="1" fill="Black" />
-    <circle cx="130" cy="30" r="37" stroke="Black" stroke-width="1" fill="Black" />
+    <circle cx="70" cy="50" r="37" stroke="Black" stroke-width="1" fill="Black" />
+    <circle cx="130" cy="50" r="37" stroke="Black" stroke-width="1" fill="Black" />
 </g>
 
     
 <g id='mouseFace'>
-    <circle cx="70" cy="30" r="30" stroke="Black" stroke-width="1" fill="White" />
-    <circle cx="130" cy="30" r="30" stroke="Black" stroke-width="1" fill="White" />
-    <circle cx="100" cy="60" r="50" stroke="Black" stroke-width="3" fill="White" />
-</g>
-
-    
-<g id='mouseMouth'>
-    <circle cx="85" cy="15" r="10" stroke="Black" stroke-width="3" fill="White" />
-    <circle cx="115" cy="15" r="10" stroke="Black" stroke-width="3" fill="White" />
+    <circle cx="70" cy="50" r="30" stroke="Black" stroke-width="1" fill="White" />
+    <circle cx="130" cy="50" r="30" stroke="Black" stroke-width="1" fill="White" />
+    <circle cx="100" cy="80" r="50" stroke="Black" stroke-width="3" fill="White" />
 </g>
 
 </g>
 
     <line x1="0" y1="0" x2="200" y2="200" stroke="Red" stroke-width="10" />
     <line x1="200" y1="0" x2="0" y2="200" stroke="Red" stroke-width="10" />
-    <line x1="100" y1="0" x2="100" y2="200" stroke="Aquamarine" stroke-width="10" />
     <rect x="10" y="150" width="180" height="40" stroke="Black" stroke-width="3" fill="White" />
     <text x="17" y="170" font-size="14" font-family="Arial" fill="Black" stroke="" stroke-width="">It's even worse for mouses!</text>
 </svg>
